@@ -62,8 +62,3 @@ def feed_stray(request, company_uuid):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
     return Response(serializer.data, status=status.HTTP_201_CREATED)
-
-# TODO: Fix all return response
-# list all future upgrades
-# list all potential problems
-# Update Reamde

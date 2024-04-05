@@ -27,7 +27,7 @@ This API endpoint allows companies to register for your service. Upon successful
 ### Response 200
 ```json
 {
-  "status_code": 200,
+  "status_code": 201,
   "data": {
     "company_name": "Emotive",
     "UUID": "0cbef9d3-4f16-4ee8-b485-c045dc8bb194",
@@ -50,7 +50,7 @@ This API endpoint allows companies to feed stray cats by entering the number of 
 ### Response 200
 ```json
 {
-  "status_code": 200,
+  "status_code": 201,
   "data": {
     "total_strays_fed": "25",
   }

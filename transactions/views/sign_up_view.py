@@ -12,4 +12,9 @@ def sign_up(request):
     else:
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    return Response(serializer.data, status=status.HTTP_201_CREATED)
+    response = {
+        "company_name": serializer.data["company_name"],
+        "UUID": serializer.data["uuid"]
+    }
+
+    return Response(response, status=status.HTTP_201_CREATED)   
