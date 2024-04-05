@@ -3,7 +3,13 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/GB6Eki?referralCode=U5zXSw)
 
 # Stray API: Deep Dive
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae ultricies eget, tempor sit amet lectus. Maecenas congue urna at lorem tincidunt laoreet. Donec eu velit pretium, scelerisque diam nec, consectetur lorem. In hac habitasse platea dictumst. Vivamus vestibulum sagittis laoreet.
+**Making a Difference for Strays, One API Call at a Time.**
+
+The Stray API aims to address the issue of hunger among stray cats and dogs in the Philippines. Integrate this API with your website on every transaction. Doing so demonstrates your commitment to helping strays. However, feeding strays indiscriminately can have drawbacks. Therefore, we partner with charitable organizations to conduct these feeding programs efficiently and safely.
+
+<br>
+<br>
+
 
 
 ## Sign Up
@@ -79,3 +85,37 @@ This API endpoint returns the total number of the strays fed by your company.
   }
 }
 ```
+<br>
+<br>
+<br>
+
+## Cloning the App
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/suriagadiego/stray_api.git 
+
+2. Create a virtual environment (recommended) and activate it.
+
+    ```bash
+    pipenv shell
+    ```
+
+3. Install dependencies
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Get env file from email <br>
+*Or create your own database and own env file on the root of the project with these values*
+
+    ```
+    PGDATABASE=
+    PGUSER=
+    PGPASSWORD=
+    PGHOST=
+    PGPORT=
+    ```
+
