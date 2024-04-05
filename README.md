@@ -24,7 +24,7 @@ This API endpoint allows companies to register for your service. Upon successful
 | Company Name | String   | Company or Entity Name                 |
 | Description  | String   | Little detail of what the company does |
 
-### Response 200
+### Response 201
 ```json
 {
   "status_code": 201,
@@ -47,7 +47,7 @@ This API endpoint allows companies to feed stray cats by entering the number of 
 |----------|----------|------------------------------------|
 | Count    | Integer  | Number of strays they want to feed |
 
-### Response 200
+### Response 201
 ```json
 {
   "status_code": 201,
