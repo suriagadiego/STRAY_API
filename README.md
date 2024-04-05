@@ -1,7 +1,3 @@
-## Django Template
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/GB6Eki?referralCode=U5zXSw)
-
 # Stray API: Deep Dive
 **Making a Difference for Strays, One API Call at a Time.**
 
@@ -10,7 +6,9 @@ The Stray API aims to address the issue of hunger among stray cats and dogs in t
 <br>
 
 Access APIS on the cloud or local:
+<br>
 *django-server-production-1afa.up.railway.app/*
+<br>
 *http://127.0.0.1:8000/*
 
 ## Sign Up
