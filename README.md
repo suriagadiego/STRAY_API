@@ -8,14 +8,15 @@
 The Stray API aims to address the issue of hunger among stray cats and dogs in the Philippines. Integrate this API with your website on every transaction. Doing so demonstrates your commitment to helping strays. However, feeding strays indiscriminately can have drawbacks. Therefore, we partner with charitable organizations to conduct these feeding programs efficiently and safely.
 
 <br>
-<br>
 
-
+Access APIS on the cloud or local:
+*django-server-production-1afa.up.railway.app/*
+*http://127.0.0.1:8000/*
 
 ## Sign Up
 This API endpoint allows companies to register for your service. Upon successful registration, a UUID is generated and assigned to the company for transactions and record-keeping.
 
-**POST** &nbsp;&nbsp;&nbsp; `https://www.google.com`
+**POST** &nbsp;&nbsp;&nbsp; `api_endpoint/signup/`
 
 ### Request Body
 | **Name**     | **Type** | **Description**                        |
@@ -37,7 +38,7 @@ This API endpoint allows companies to register for your service. Upon successful
 ## Feed
 This API endpoint allows companies to feed stray cats by entering the number of strays they want to feed.
 
-**POST** &nbsp;&nbsp;&nbsp; `https://www.google.com`
+**POST** &nbsp;&nbsp;&nbsp; `api_endpoint/feed/{Company_UUID}`
 
 
 ### Request Body
@@ -59,7 +60,7 @@ This API endpoint allows companies to feed stray cats by entering the number of 
 ## Get total Stray Fed
 This API endpoint returns the total number of the strays fed by the whole organization.
 
-**GET** &nbsp;&nbsp;&nbsp; `https://www.google.com`
+**GET** &nbsp;&nbsp;&nbsp; `api_endpoint/total_strays_fed/`
 
 ### Response 200
 ```json
@@ -74,7 +75,7 @@ This API endpoint returns the total number of the strays fed by the whole organi
 ## Get total Stray Fed by Company
 This API endpoint returns the total number of the strays fed by your company.
 
-**GET** &nbsp;&nbsp;&nbsp; `https://www.sample_link.com/{Company_UUID}/`
+**GET** &nbsp;&nbsp;&nbsp; `api_endpoint/total_stays_fed/{Company_UUID}/`
 
 ### Response 200
 ```json
@@ -85,7 +86,6 @@ This API endpoint returns the total number of the strays fed by your company.
   }
 }
 ```
-<br>
 <br>
 <br>
 
