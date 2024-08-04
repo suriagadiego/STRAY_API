@@ -52,7 +52,7 @@ This API endpoint allows companies to feed stray cats by entering the number of 
 {
   "status_code": 201,
   "data": {
-    "total_strays_fed": "25",
+    "total_strays_fed": "20",
   }
 }
 ```
