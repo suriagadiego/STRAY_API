@@ -82,7 +82,7 @@ This API endpoint returns the total number of the strays fed by your company.
 {
   "status_code": 200,
   "data": {
-    "total_strays_fed": "125,089",
+    "total_strays_fed": "125,090",
   }
 }
 ```
