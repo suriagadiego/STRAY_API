@@ -11,7 +11,7 @@ The Stray API aims to address the issue of hunger among stray cats and dogs in t
 <br>
 *django-server-production-1afa.up.railway.app/*
 <br>
-*http://127.0.0.1:8002/*
+*http://127.0.0.1:8003/*
 
 ## Sign Up
 This API endpoint allows companies to register for your service. Upon successful registration, a UUID is generated and assigned to the company for transactions and record-keeping.
