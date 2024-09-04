@@ -5,6 +5,7 @@ The Stray API aims to address the issue of hunger among stray cats and dogs in t
 
 <br>
 
+
 ### Access APIS on the cloud or local:
 
 **API Endpoints:**
