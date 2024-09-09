@@ -8,6 +8,7 @@ The Stray API aims to address the issue of hunger among stray cats and dogs in t
 
 ### Access APIS on the cloud or local:
 
+
 **API Endpoints:**
 <br>
 *django-server-production-1afa.up.railway.app/*
