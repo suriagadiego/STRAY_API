@@ -3,7 +3,7 @@
 
 The Stray API aims to address the issue of hunger among stray cats and dogs in the Philippines. Integrate this API with your website on every transaction. Doing so demonstrates your commitment to helping strays. However, feeding strays indiscriminately can have drawbacks. Therefore, we partner with charitable organizations to conduct these feeding programs efficiently and safely.
 
-<br>
+<br>/
 
 
 ### Access APIS on the cloud or local:
